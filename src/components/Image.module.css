@@ -1,0 +1,72 @@
+.dispaly-main {
+  display: flex;
+  gap: 5rem;
+  padding: 4rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+p {
+  font-size: 1.8rem;
+  letter-spacing: 0.25px;
+}
+.display {
+  height: 40rem;
+  width: 70rem;
+  border-radius: 3rem;
+}
+.child {
+  height: 10rem;
+  width: 12rem;
+  border-radius: 1rem;
+}
+.children {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.display-bottom {
+  display: flex;
+  gap: 25rem;
+  padding-left: 4rem;
+}
+.left {
+  height: 5rem;
+  border: none;
+  background: none;
+  margin-top: 2rem;
+  font-size: 5rem;
+}
+.left:hover {
+  color: blue;
+  transition: 0.3s;
+}
+.right {
+  height: 5rem;
+  border: none;
+  background: none;
+  margin-top: 2rem;
+  font-size: 5rem;
+}
+.right:hover {
+  color: blue;
+  transition: 0.3s;
+}
+.pause {
+  height: 5rem;
+  font-size: 7rem;
+  border: none;
+  background: none;
+  color: rgb(17, 235, 235);
+}
+.pause:hover {
+  color: rgb(50, 17, 235);
+  transition: 0.3s;
+}
